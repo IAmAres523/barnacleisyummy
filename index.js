@@ -1,13 +1,8 @@
 const images = [
-"img/DSC02441.JPG",
-"img/DSC02455.JPG",
-"img/DSC02465.JPG",
-"img/DSC02466.JPG",
-"img/DSC02468.JPG",
-"img/memo1.jpg",
-"img/memo2.jpeg",
-"img/memo4.jpeg",
-"img/memo5.jpeg"
+"memo1.jpg",
+"memo2.jpeg",
+"memo4.jpeg",
+"memo5.jpeg"
 ];
 
 let currentIndex = 0;
