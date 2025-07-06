@@ -1,4 +1,4 @@
-var Input = {
+svar Input = {
     keys: [],
     mouse: {
       left: false,
