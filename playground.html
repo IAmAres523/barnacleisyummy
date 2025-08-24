@@ -53,10 +53,16 @@
     }
 
     function changecolor(){
-      document.body.style.backgroundColor = "blue";
+      document.body.style.backgroundColor = "Aqua";
     }
       
-
+function showanimal(){
+  let animals=["Canidae","Felidae","Cat","Cattle","Dog","Donkey","Goat","Guinea pig","Horse","Pig","Rabbit",
+               "Fancy rat","laboratory rat","Sheep","water buffalo","Chicken","Duck","Goose","Pigeon","Turkey",
+               "Aardvark","Aardwolf","African buffalo","African elephant","African leopard","Albatross","Alligator"];
+  let randomanimal = animals[Math.floor(Math.random() * animals.length)]; 
+  alert("you are a:"+randomanimal);
+}
       
 
     
