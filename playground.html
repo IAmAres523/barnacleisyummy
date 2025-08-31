@@ -5,30 +5,47 @@
   <title> playground html</title>
     <style>
       body{
-         font-family:Comic Sans MS, Comic Sans, cursive;
-        background-color:azure;
-        padding:120;
+        font-family:"Comic Sans MS","Comic Sans";
+        background-color:rgb(255, 255, 255);
+        padding:20px;
       }
       h1{
         color:red;
       }
       section{
-        margin-bottom:50;
-        padding:2;
-        border:100px;
-        border-radius:5px;
-        background-color:orange;
+        margin: 30px;
+        padding:30px;
+        border:2px #ffffff;
+        border-radius:20px;
+        background-color:rgb(255, 85, 0);
       }
       
-        
-      
+      button{
+        font-family:"gill sans";
+        font-size: x-large;
+        border-radius: 20px;
+      }
+
+      input{
+        border-radius: 6px;
+        margin: 15px 10px 15px 10px;
+        width: 300px;
+        height: 20px;
+
+      }
+
     </style> 
   </head>
   <body>
   <h1 id="main-title">javascript playground </h1>
     
   <button onclick="toggleLanguage()"> switch to 中文</button>
-    
+
+  <iframe width="110" height="200" src="https://www.myinstants.com/instant/metal-pipe-clang-80894/embed/" frameborder="0" scrolling="no"></iframe>
+
+    <audio id="myAudio" src="metal-pipe-clang.mp3"></audio>
+<button onclick="audio()">Metal metal-pipe-clang</button>
+
   <section>
     <h2 id="title 1.">click to show message </h2>
     <button id="btn1" onclick="SayHello()">Click me</button>
@@ -83,7 +100,13 @@ function showanimal(){
   let randomanimal = animals[Math.floor(Math.random() * animals.length)];
   alert("you are a:"+randomanimal);
 }
-      
+
+function audio(){
+    const audio = document.getElementById("myAudio");
+    audio.volume = 1;
+    audio.play();
+
+}
 
     
   </script>
